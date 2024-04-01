@@ -48,9 +48,7 @@ public class AppConfig {
 				cfg.setAllowedOrigins(Arrays.asList(
 						"http://localhost:3000",
 						"http://localhost:4000",
-						"http://localhost:4200",
-						"https://zosh-social.vercel.app",
-						"https://zosh-social-full-stack.vercel.app/"
+						"http://localhost:4200"
 						
 						));
 				cfg.setAllowedMethods(Collections.singletonList("*"));
